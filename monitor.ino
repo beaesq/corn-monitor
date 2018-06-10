@@ -228,10 +228,8 @@ void setup () {
 	// The DHT22 requires a minimum 2s warm-up.
 	delay (2000);
 	
-	Serial.println(strcpy(contact[0].profileName, "Patchuchay"));
-	Serial.println(strcpy(contact[0].phoneNum, "+639473330802"));
-	/* writeSDSettings();
-	readSDSettings(); */
+	writeSDSettings();
+	readSDSettings(); 
 	
 	lcd.setCursor(0,1);
 	lcd.print("Wait for reading");

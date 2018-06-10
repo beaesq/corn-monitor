@@ -5,7 +5,7 @@ Uses 6 DHT22 sensors to read temperature and relative humidity. Logs readings w/
 
 Sends SMS alerts for power outages. Sends SMS reports of temp & humidity readings every 1/2/3 days in 60/90/120 minute intervals. Can receive SMS commands to send temp & humidity report or check current SMS balance.
 
-An LCD and 4 push buttons are used to display the current date/time, average temp & humidity, and individual sensor readings.
+An LCD and 4 push buttons are used to display the current date/time, average temp & humidity, and individual sensor readings. The LCD backlight, SD card saving, RTC settings, sensor reading interval, and SMS functions can be adjusted using the display.
 
 **Notes:**
   - SMS balance check is hard-coded for SMART haha

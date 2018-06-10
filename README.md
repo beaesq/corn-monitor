@@ -1,5 +1,5 @@
 # corn-monitor
-Temp/rel humidity/power outage monitor w/ SMS alerts for corn cold storage.
+Temp/rel humidity/power outage monitor w/ SMS alerts for seed cold storage.
 
 **Notes:**
   - prepaid load check is hard-coded for SMART haha
